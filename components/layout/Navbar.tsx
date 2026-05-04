@@ -36,7 +36,7 @@ export default function Navbar() {
           ))}
           <Link
             href="/#contact"
-            className="rounded-full bg-brand-gold px-4 py-2 text-sm font-bold text-white transition-colors hover:bg-yellow-700"
+            className="rounded-full bg-brand-gold px-4 py-2 text-sm font-bold text-white transition-colors hover:bg-brand-gold/80"
           >
             Contact Me
           </Link>

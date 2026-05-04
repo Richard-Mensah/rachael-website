@@ -1,4 +1,5 @@
 import Hero from '@/components/features/home/Hero'
+import PhotoScroll from '@/components/features/home/PhotoScroll'
 import ThesisSpotlight from '@/components/features/home/ThesisSpotlight'
 import AboutSection from '@/components/features/home/AboutSection'
 import ExpertiseGrid from '@/components/features/home/ExpertiseGrid'
@@ -18,6 +19,7 @@ export default function HomePage() {
   return (
     <>
       <Hero />
+      <PhotoScroll />
       <ThesisSpotlight />
       <AboutSection />
       <ExpertiseGrid />

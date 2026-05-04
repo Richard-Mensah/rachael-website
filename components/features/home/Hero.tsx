@@ -5,17 +5,18 @@ import Button from '@/components/ui/Button'
 export default function Hero() {
   return (
     <section className="relative overflow-hidden bg-brand-navy">
-      {/* Decorative radial glow */}
-      <div className="pointer-events-none absolute right-0 top-0 h-64 w-64 rounded-full bg-brand-gold/10 blur-3xl" />
+      {/* Decorative glows */}
+      <div className="pointer-events-none absolute right-0 top-0 h-80 w-80 rounded-full bg-brand-gold/10 blur-3xl" />
+      <div className="pointer-events-none absolute bottom-0 left-0 h-56 w-56 rounded-full bg-brand-purple/20 blur-3xl" />
 
-      <div className="mx-auto flex max-w-6xl flex-col items-end gap-8 px-6 pt-16 md:flex-row md:items-end md:pt-20">
+      <div className="mx-auto flex max-w-6xl flex-col items-end gap-8 px-6 pt-16 md:flex-row md:items-end md:pt-24">
         {/* Text */}
-        <div className="flex-1 pb-12 md:pb-16">
-          <span className="mb-4 inline-block rounded-full border border-brand-gold/40 bg-brand-gold/10 px-4 py-1.5 text-xs font-bold uppercase tracking-widest text-brand-gold">
+        <div className="flex-1 pb-12 md:pb-20">
+          <span className="mb-5 inline-block rounded-full border border-brand-gold/50 bg-brand-gold/10 px-4 py-1.5 text-xs font-bold uppercase tracking-widest text-brand-gold">
             MSc Accounting &amp; Finance · Cardiff Metropolitan University
           </span>
 
-          <h1 className="mb-4 text-5xl font-extrabold leading-tight text-white md:text-6xl">
+          <h1 className="mb-5 text-5xl font-extrabold leading-tight text-white md:text-7xl">
             Rachael<br />Otuah
           </h1>
 
@@ -35,7 +36,7 @@ export default function Hero() {
         </div>
 
         {/* Portrait */}
-        <div className="relative h-72 w-48 flex-shrink-0 overflow-hidden rounded-t-2xl border-2 border-brand-gold/40 md:h-80 md:w-56">
+        <div className="relative h-72 w-48 flex-shrink-0 overflow-hidden rounded-t-2xl border-2 border-brand-gold/40 shadow-2xl md:h-96 md:w-64">
           <Image
             src="/images/passport.jpg"
             alt="Rachael Otuah"

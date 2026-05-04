@@ -24,7 +24,7 @@ export default function ThesisSpotlight() {
                 Carbon-Intensive vs Low-Carbon Sectors
               </h2>
               <p className="mb-4 text-sm text-brand-beige/60">
-                Cardiff Metropolitan University · 2025 · Accounting &amp; Finance
+                Cardiff Metropolitan University · 2026 · Accounting &amp; Finance
               </p>
               <div className="flex flex-wrap gap-2">
                 {tags.map((tag) => (

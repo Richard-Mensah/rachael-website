@@ -32,7 +32,7 @@ const expertise: Expertise[] = [
 
 export default function ExpertiseGrid() {
   return (
-    <section className="bg-brand-off-white px-6 py-16">
+    <section className="bg-brand-cream px-6 py-16">
       <div className="mx-auto max-w-6xl">
         <SectionLabel className="mb-3">Areas of Expertise</SectionLabel>
         <h2 className="mb-8 text-3xl font-extrabold text-brand-navy md:text-4xl">

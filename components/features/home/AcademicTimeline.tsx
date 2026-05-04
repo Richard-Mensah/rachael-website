@@ -15,14 +15,14 @@ const nodes: TimelineNode[] = [
     subtitle: 'University of Professional Studies, Accra, Ghana',
   },
   {
-    year: '2023 – 2025',
+    year: '2025 – 2026',
     title: 'MSc Accounting & Finance',
     subtitle: 'Cardiff Metropolitan University, UK · Thesis: ESG Ratings & FTSE 100 Financial Performance',
   },
   {
-    year: '2025 – Present',
+    year: '2026 – Present',
     title: 'Finance Educator & Researcher',
-    subtitle: 'Online content, podcast host, and workshop facilitator · Pursuing ACCA/CIMA',
+    subtitle: 'Online content, podcast host, and workshop facilitator · Pursuing ACCA',
   },
   {
     year: 'Future',

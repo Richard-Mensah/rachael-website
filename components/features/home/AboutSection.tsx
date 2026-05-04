@@ -2,13 +2,13 @@ import SectionLabel from '@/components/ui/SectionLabel'
 
 export default function AboutSection() {
   return (
-    <section className="bg-white px-6 py-16">
+    <section className="border-t border-brand-cream bg-white px-6 py-16">
       <div className="mx-auto max-w-6xl">
         <SectionLabel className="mb-3">About Me</SectionLabel>
-        <h2 className="mb-6 text-3xl font-extrabold text-brand-navy md:text-4xl">
+        <h2 className="mb-8 text-3xl font-extrabold text-brand-navy md:text-4xl">
           Where Finance Meets Sustainability
         </h2>
-        <div className="max-w-3xl space-y-4 text-base leading-relaxed text-gray-600">
+        <div className="max-w-3xl border-l-4 border-brand-gold pl-6 space-y-4 text-base leading-relaxed text-gray-600">
           <p>
             Rachael Otuah is a finance professional with a strong academic foundation
             built across two institutions and two disciplines. Holding a BSc in Business
