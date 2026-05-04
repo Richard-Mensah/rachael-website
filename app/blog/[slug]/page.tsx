@@ -4,9 +4,15 @@ import BlogPost from '@/components/features/blog/BlogPost'
 
 type Props = { params: Promise<{ slug: string }> }
 
+export const dynamic = 'force-dynamic'
+
 export async function generateStaticParams() {
-  const posts = await getAllPosts()
-  return posts.map((p) => ({ slug: p.slug }))
+  try {
+    const posts = await getAllPosts()
+    return posts.map((p) => ({ slug: p.slug }))
+  } catch {
+    return []
+  }
 }
 
 export async function generateMetadata({ params }: Props) {
