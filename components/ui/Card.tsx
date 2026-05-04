@@ -11,7 +11,7 @@ export default function Card({ children, className, topBorder = false }: Props) 
     <div
       className={cn(
         'rounded-xl bg-white p-5 shadow-sm transition-shadow duration-200 hover:shadow-md',
-        topBorder && 'border-t-4 border-brand-gold',
+        topBorder && 'border-t-4 border-brand-purple',
         className
       )}
     >

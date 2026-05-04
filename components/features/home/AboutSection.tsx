@@ -10,19 +10,18 @@ export default function AboutSection() {
         </h2>
         <div className="max-w-3xl border-l-4 border-brand-gold pl-6 space-y-4 text-base leading-relaxed text-gray-600">
           <p>
-            Rachael Otuah is a finance professional with a strong academic foundation
-            built across two institutions and two disciplines. Holding a BSc in Business
-            Administration from the University of Professional Studies, Accra, and an MSc
-            in Accounting &amp; Finance from Cardiff Metropolitan University, her research
-            examines how ESG factors translate into measurable financial outcomes — a
-            question she believes is reshaping how markets assess long-term value.
+            Rachael grew up in Ghana, studied business in Accra, and moved to the UK
+            to complete her MSc in Accounting and Finance at Cardiff Metropolitan
+            University. Her dissertation looked at whether ESG ratings actually predict
+            financial performance for FTSE 100 companies, split between carbon-intensive
+            and low-carbon sectors. The short answer is that it depends on the sector,
+            which is not the tidy answer anyone wanted, but it is the honest one.
           </p>
           <p>
-            She is drawn to the growing convergence of traditional finance with ESG
-            reporting standards, financial technology, and data analytics — and closely
-            follows how artificial intelligence and automation are fundamentally reshaping
-            how financial information is produced, interpreted, and acted upon. She is
-            preparing for doctoral research to push these questions further.
+            She is interested in where traditional finance meets ESG reporting,
+            financial technology, and the way data analytics is changing how financial
+            information gets produced and used. She is currently preparing for doctoral
+            research to push these questions further.
           </p>
         </div>
       </div>

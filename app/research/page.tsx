@@ -17,7 +17,7 @@ const expertiseDetail = [
   {
     icon: BarChart2,
     title: 'Quantitative Comparative Analysis',
-    body: 'Using financial performance metrics — ROE, ROA, EPS, and market capitalisation — the research applied comparative quantitative methods across multiple sectors to identify statistically meaningful patterns in ESG–performance relationships.',
+    body: 'Using financial performance metrics, including ROE, ROA, EPS, and market capitalisation, the research applied comparative quantitative methods across multiple sectors to identify statistically meaningful patterns in ESG and performance relationships.',
   },
   {
     icon: BookOpen,
@@ -27,7 +27,7 @@ const expertiseDetail = [
   {
     icon: FileText,
     title: 'Doctoral Research Direction',
-    body: 'Preparing for PhD research exploring the mechanisms through which ESG quality translates — or fails to translate — into financial outperformance. Particular interest in how AI-driven disclosure analysis can improve ESG measurement consistency.',
+    body: 'Preparing for PhD research exploring why ESG quality does or does not translate into financial outperformance, with a particular interest in how AI-driven disclosure analysis can improve the consistency of ESG measurement.',
   },
 ]
 
@@ -43,8 +43,8 @@ export default function ResearchPage() {
           </h1>
           <p className="max-w-2xl text-base leading-relaxed text-brand-beige/70">
             My research sits at the intersection of sustainable finance and corporate
-            performance — asking whether the commitments companies make to ESG actually
-            translate into the financial outcomes markets reward.
+            performance. I want to know whether the commitments companies make on ESG
+            actually translate into the financial outcomes that markets care about.
           </p>
         </div>
       </div>
@@ -60,7 +60,7 @@ export default function ResearchPage() {
               Low-Carbon Sectors
             </h2>
             <p className="mb-4 text-sm text-gray-500">
-              Cardiff Metropolitan University · MSc Accounting &amp; Finance · 2025
+              Cardiff Metropolitan University · MSc Accounting &amp; Finance · 2026
             </p>
             <p className="max-w-3xl text-base leading-relaxed text-gray-600">
               This research investigates whether ESG ratings systematically predict

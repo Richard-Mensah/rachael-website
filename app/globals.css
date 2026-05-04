@@ -2,17 +2,17 @@
 @plugin "@tailwindcss/typography";
 
 @theme {
-  --color-brand-navy:      #1C3D2E;
-  --color-brand-gold:      #D4A853;
-  --color-brand-beige:     #F0E6D3;
-  --color-brand-purple:    #2D6A4F;
-  --color-brand-cream:     #E8F2EC;
-  --color-brand-off-white: #F7FAF8;
+  --color-brand-navy:      #1B2A4A;
+  --color-brand-gold:      #B09030;
+  --color-brand-beige:     #C8B89A;
+  --color-brand-purple:    #5C1E6B;
+  --color-brand-cream:     #F5F0E8;
+  --color-brand-off-white: #F8F7FC;
 }
 
 :root {
-  --background: #F7FAF8;
-  --foreground: #1C3D2E;
+  --background: #F8F7FC;
+  --foreground: #1B2A4A;
 }
 
 html {
